@@ -20,8 +20,6 @@ class CRP(OLPS):
         """
         super(CRP, self).__init__()
 
-        pass
-
     def _first_weight(self, weights):
         """
         Sets first weight for Constant Rebalanced Portfolio

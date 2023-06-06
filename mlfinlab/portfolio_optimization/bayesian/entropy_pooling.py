@@ -70,8 +70,6 @@ class EntropyPooling:
         :return: (Numpy array) Posterior probabilities.
         """
 
-        pass
-
         def _cost_func(equality_lagrange_multplier):
             # pylint: disable=invalid-name
             """
@@ -94,8 +92,6 @@ class EntropyPooling:
 
             pass
 
-        pass
-
     @staticmethod
     def _solve_constrained_optimisation(initial_guess, prior_probabilities, equality_matrix, equality_vector, inequality_matrix, inequality_vector,
                                         num_equality_constraints, num_inequality_constraints):
@@ -114,8 +110,6 @@ class EntropyPooling:
         :param num_inequality_constraints: (int) Number of inequality views/constraints.
         :return: (Numpy array) Posterior probabilities.
         """
-
-        pass
 
         def _inequality_constraints_func(all_constraints_vector):
             """
@@ -159,8 +153,6 @@ class EntropyPooling:
             """
 
             pass
-
-        pass
 
     @staticmethod
     def _error_checks(prior_probabilities, equality_matrix, equality_vector, inequality_matrix, inequality_vector):

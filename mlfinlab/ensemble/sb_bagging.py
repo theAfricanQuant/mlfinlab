@@ -89,9 +89,6 @@ class SequentiallyBootstrappedBaseBagging(BaseBagging, metaclass=ABCMeta):
             random_state=random_state,
             verbose=verbose)
 
-
-        pass
-
     def fit(self, X, y, sample_weight=None):
         """Build a Sequentially Bootstrapped Bagging ensemble of estimators from the training
            set (X, y).

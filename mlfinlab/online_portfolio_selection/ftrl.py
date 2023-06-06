@@ -26,8 +26,6 @@ class FTRL(FTL):
         """
         super(FTRL, self).__init__()
 
-        pass
-
     def _fast_optimize(self, optimize_array):
         """
         Calculates weights that maximize returns over the given array.
